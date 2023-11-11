@@ -21,10 +21,43 @@ ul{
 .second-part h2 {
     text-align: center;
     padding-bottom: 30px;
+
+}
+
+.second-part{
+    background-color: aquamarine
 }
 
 .carousel {
     display: flex;
     text-align: center;
     justify-content: space-around;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    
+}
+
+.third-part{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+span{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.box{
+    border: 1px solid navy;
+    width:100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.fourth-part{
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 0 auto;
 }
