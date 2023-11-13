@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 
 header{
     display: flex;
@@ -18,10 +26,10 @@ ul{
 
 .first-part{
     display: flex;
-    justify-content: space-between;
-    max-width: 500px;
+    justify-content: space-around;
+    /* max-width: 500px; */
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 90px;
 }
 
 .back-blue{
