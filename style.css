@@ -16,6 +16,13 @@ header{
     color: whitesmoke;
     
 }
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
 ul{
     display:flex;
     margin: 0;
@@ -38,7 +45,8 @@ ul{
 }
 
 .left-section{
-    color: whitesmoke
+    color: whitesmoke;
+    max-width: 300px;
 }
 
 .right-section{
@@ -50,14 +58,24 @@ ul{
 
 .second-part h2 {
     text-align: center;
+
     /* padding-bottom: 30px; */
     padding: 20px;
+    /* margin: 0 auto; */
 
 }
 
 .second-part{
     background-color: aquamarine;
     padding: 20px;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    padding: 5px;
 }
 
 .carousel {
